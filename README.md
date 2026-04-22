@@ -3,7 +3,7 @@
 ALTA AI is a cutting-edge, AI-powered content generation platform designed to architect complete content ecosystems from a single vision. Powered by Google Gemini, it transforms a simple topic into a multi-format suite of professional content including executive summaries, full editorial articles, and ready-to-post social media updates.
 
 <p align="center">
-  <img src="https://github.com/kumar-ayan/content-generator/raw/master/frontend/src/assets/hero.png" width="100%" alt="ALTA AI Hero">
+  <img src="https://github.com/kumar-ayan/content-generator/raw/master/frontend/src/assets/hero.png" width="10%" alt="ALTA AI Hero">
 </p>
 
 ## ✨ Key Features
