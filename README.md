@@ -2,7 +2,9 @@
 
 ALTA AI is a cutting-edge, AI-powered content generation platform designed to architect complete content ecosystems from a single vision. Powered by Google Gemini, it transforms a simple topic into a multi-format suite of professional content including executive summaries, full editorial articles, and ready-to-post social media updates.
 
-![ALTA AI Branding](https://github.com/kumar-ayan/content-generator/raw/master/frontend/src/assets/hero.png) *(Note: Placeholder for hero image)*
+<p align="center">
+  <img src="https://github.com/kumar-ayan/content-generator/raw/master/frontend/src/assets/hero.png" width="100%" alt="ALTA AI Hero">
+</p>
 
 ## ✨ Key Features
 
@@ -17,6 +19,16 @@ ALTA AI is a cutting-edge, AI-powered content generation platform designed to ar
 - **One-Click Copy:** Seamlessly move content to your workflow with built-in clipboard management.
 
 ## 🛠️ Tech Stack
+
+<p align="left">
+  <img src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" alt="React" />
+  <img src="https://img.shields.io/badge/typescript-%23007acc.svg?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white" alt="Vite" />
+  <img src="https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
+  <img src="https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js" />
+  <img src="https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB" alt="Express" />
+  <img src="https://img.shields.io/badge/google_gemini-8E75B2?style=for-the-badge&logo=google-gemini&logoColor=white" alt="Google Gemini" />
+</p>
 
 ### Frontend
 - **React 19 & TypeScript:** Type-safe, component-based architecture.
