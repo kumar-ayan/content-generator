@@ -1,22 +1,22 @@
-# ALTA AI | Intelligence Nexus
+# LinkedIn Architect | Engagement Nexus
 
-ALTA AI is a cutting-edge, AI-powered content generation platform designed to architect complete content ecosystems from a single vision. Powered by Google Gemini, it transforms a simple topic into a multi-format suite of professional content including executive summaries, full editorial articles, and ready-to-post social media updates.
+LinkedIn Architect is a specialized, AI-powered tool designed to transform simple ideas into high-performing LinkedIn content. Powered by Google Gemini, it generates three distinct variations of LinkedIn posts (Professional, Storytelling, and Punchy) optimized for reach and engagement.
 
 <p align="center">
-  <img src="https://github.com/kumar-ayan/content-generator/raw/master/frontend/src/assets/hero.png" width="100%" alt="ALTA AI Hero">
+  <img src="https://github.com/kumar-ayan/content-generator/raw/master/frontend/src/assets/hero.png" width="10%" alt="LinkedIn Architect Hero">
 </p>
 
 ## ✨ Key Features
 
-- **Intelligence Synthesis:** Leverages Google's Gemini 2.0 Flash model for high-fidelity content generation.
-- **Tone Customization:** Tailor your output with five distinct personas: *Professional, Creative, Witty, Academic, and Persuasive*.
-- **Content Triple-Stack:** Every generation produces:
-  - **Executive Summary:** A high-level briefing of the core concept.
-  - **Full Editorial:** A detailed, long-form article ready for publication.
-  - **Social Nexus:** An optimized LinkedIn post with relevant hashtags and engagement strategy.
-- **Nexus Log (History):** Persistent storage of your generation history using `localStorage`.
-- **Modern Interface:** A high-performance, glassmorphic UI featuring smooth animations and a responsive layout.
-- **One-Click Copy:** Seamlessly move content to your workflow with built-in clipboard management.
+- **LinkedIn Optimization:** Specifically tuned to generate content that resonates on the LinkedIn platform.
+- **Triple-Variation Strategy:** Every generation produces:
+  - **Professional Insight:** Structured, value-driven posts with clear takeaways.
+  - **Personal Storytelling:** Relatable narratives that build authentic connection.
+  - **Punchy / Viral:** Short, impactful sentences designed for maximum readability and "stopping the scroll."
+- **Tone Personalization:** Choose from five distinct personas: *Professional, Thought Leader, Contrarian, Enthusiastic, and Empathetic*.
+- **Blueprint Archive:** Persistent storage of your post history using `localStorage`.
+- **Modern Interface:** A sleek, dark-themed UI featuring glassmorphism and smooth animations.
+- **One-Click Copy:** Seamlessly move your drafts to LinkedIn with built-in clipboard management.
 
 ## 🛠️ Tech Stack
 
@@ -29,21 +29,6 @@ ALTA AI is a cutting-edge, AI-powered content generation platform designed to ar
   <img src="https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB" alt="Express" />
   <img src="https://img.shields.io/badge/google_gemini-8E75B2?style=for-the-badge&logo=google-gemini&logoColor=white" alt="Google Gemini" />
 </p>
-
-### Frontend
-- **React 19 & TypeScript:** Type-safe, component-based architecture.
-- **Vite:** Next-generation frontend tooling for ultra-fast development.
-- **Tailwind CSS:** Utility-first styling with custom glassmorphism.
-- **Framer Motion:** High-end UI animations and spatial transitions.
-- **Lucide React:** Minimalist, consistent iconography.
-
-### Backend
-- **Node.js & Express:** Robust, scalable server environment.
-- **TypeScript:** Ensuring structural integrity across the API layer.
-- **Google Generative AI:** Integration with Gemini API for advanced LLM capabilities.
-- **CORS & Dotenv:** Secure and configurable environment management.
-
----
 
 ## 🚀 Getting Started
 
@@ -85,33 +70,11 @@ From the root directory:
 ```bash
 npm run dev
 ```
-The server will start at `http://localhost:3000`.
 
 ### 2. Start the Frontend Application
 From the `frontend` directory:
 ```bash
 npm run dev
-```
-The application will be available at `http://localhost:5173` (or the next available port).
-
----
-
-## 📁 Project Structure
-
-```text
-content_generator/
-├── src/                # Backend source (TypeScript)
-│   ├── routes/         # API endpoints
-│   ├── services/       # AI logic (Gemini integration)
-│   └── index.ts        # Server entry point
-├── frontend/           # React frontend
-│   ├── src/
-│   │   ├── assets/     # Images and styles
-│   │   ├── App.tsx     # Main application logic
-│   │   └── main.tsx    # React entry point
-│   └── tailwind.config.js
-├── .env                # API Keys (gitignored)
-└── package.json        # Project metadata
 ```
 
 ## 📜 License
