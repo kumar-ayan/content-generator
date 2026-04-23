@@ -56,9 +56,11 @@ export const generateContent = async (topic: string, tone: string = "Professiona
     const text = response.text();
 
     const jsonMatch = text.match(/\{[\s\S]*\}/);
-    const jsonString = jsonMatch ? jsonMatch[0] : text;
-
-    const parsedData = JSON.parse(jsonString);
+    if (!jsonMatch) {
+      throw new Error("No JSON found in response");
+    }
+    const jsonString = jsonMatch[0];
+    const parsedData = JSON.parse(jsonString.trim());
 
     return {
       topic,
@@ -68,8 +70,8 @@ export const generateContent = async (topic: string, tone: string = "Professiona
         punchy: parsedData.punchy,
       },
     };
-  } catch (error) {
-    console.error("Error generating content:", error);
-    throw new Error("Failed to generate content from AI model.");
+  } catch (error: any) {
+    console.error("Error generating content:", error.message || error);
+    throw new Error(`Failed to generate content: ${error.message}`);
   }
 };
